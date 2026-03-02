@@ -51,7 +51,6 @@
             margin-left: 2rem;
         }
 
-        /* Hero with Real Image */
         .hero {
             padding: 120px 0;
             background: linear-gradient(rgba(0, 45, 91, 0.8), rgba(0, 45, 91, 0.8)), 
@@ -119,6 +118,7 @@
         .form-control {
             width: 100%; padding: 0.8rem; margin: 0.5rem 0 1.5rem;
             border: 1px solid #ddd; border-radius: 6px; box-sizing: border-box;
+            font-family: inherit;
         }
 
         footer { background: var(--primary); color: white; padding: 3rem 0; text-align: center; }
@@ -126,6 +126,7 @@
         @media (max-width: 768px) {
             .hero h1 { font-size: 2.2rem; }
             .content-box { padding: 2rem; }
+            nav a { margin-left: 1rem; font-size: 0.9rem; }
         }
     </style>
 </head>
@@ -139,8 +140,7 @@
         <nav>
             <a href="#about">Approach</a>
             <a href="#services">Services</a>
-            <a href="pricing.html" class="btn">View Our Packages</a>
-            <a href="#contact">Contact</a>
+            <a href="pricing.html" class="btn">View Packages</a>
         </nav>
     </div>
 </header>
@@ -167,7 +167,7 @@
                 </ul>
             </div>
             <div class="about-img">
-                <img src="https://unsplash.com/photos/a-man-and-a-woman-shaking-hands-in-front-of-a-laptop-qFSQFSmfZkA" alt="The Remote RM Consultancy">
+                <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=600&q=80" alt="Consultancy Meeting">
             </div>
         </div>
     </section>
@@ -214,17 +214,7 @@
         <p style="text-align: center; margin-bottom: 3rem;">I typically respond to all CQC enquiries within 24 hours.</p>
         
         <div style="max-width: 600px; margin: 0 auto;">
-           <form action="https://formspree.io/f/your-unique-id" method="POST">
-  <label>Your email:</label>
-  <input type="email" name="email">
-  
-  <label>Your message:</label>
-  <textarea name="message"></textarea>
-  
-  <button type="submit">Send</button>
-</form>
-                <input type="hidden" name="form-name" value="contact">
-                
+            <form action="https://formspree.io/f/meelbgwn" method="POST">
                 <label>Name</label>
                 <input type="text" name="name" class="form-control" required placeholder="Full Name">
                 
@@ -258,5 +248,4 @@
 </footer>
 
 </body>
-
 </html>
