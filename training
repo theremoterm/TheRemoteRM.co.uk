@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentorship & Training | The Remote RM</title>
+    <style>
+        :root { --primary: #002d5b; --accent: #007bff; --bg: #f0f4f8; --text: #2d3436; --white: #ffffff; }
+        body { font-family: 'Inter', sans-serif; margin: 0; background-color: var(--bg); color: var(--text); line-height: 1.7; }
+        .container { max-width: 1100px; margin: 0 auto; padding: 0 2rem; }
+        
+        header { background: var(--white); padding: 1.5rem 0; border-bottom: 3px solid var(--primary); position: sticky; top: 0; z-index: 1000; }
+        .nav-flex { display: flex; justify-content: space-between; align-items: center; }
+        .logo img { height: 85px; width: auto; vertical-align: middle; }
+        nav a { text-decoration: none; color: var(--text); font-weight: 700; margin-left: 2rem; }
+
+        .hero-mini { padding: 80px 0; background: var(--primary); color: white; text-align: center; }
+        .content-box { background: var(--white); border-radius: 20px; padding: 4rem; margin: 40px 0; box-shadow: 0 15px 35px rgba(0,45,91,0.1); }
+        
+        h2 { font-size: 2.2rem; color: var(--primary); border-left: 6px solid var(--accent); padding-left: 20px; margin-bottom: 2rem; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2.5rem; }
+        
+        .mentor-card { background: #f8fbff; padding: 2.5rem; border-radius: 15px; border: 1px solid #e1e8f0; }
+        .mentor-card h3 { color: var(--accent); margin-top: 0; }
+        
+        .btn { background: var(--accent); color: white; padding: 1.2rem 2.5rem; border-radius: 10px; text-decoration: none; font-weight: 700; display: inline-block; transition: 0.3s; margin-top: 20px; }
+        .btn:hover { transform: translateY(-3px); box-shadow: 0 8px 20px rgba(0,123,255,0.4); }
+
+        footer { background: var(--primary); color: white; padding: 3rem 0; text-align: center; }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="container nav-flex">
+        <a href="index.html" class="logo"><img src="logo.png" alt="The Remote RM Logo"></a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="pricing.html">Pricing</a>
+            <a href="mentorship.html">Mentorship</a>
+            <a href="index.html#contact">Contact</a>
+        </nav>
+    </div>
+</header>
+
+<section class="hero-mini">
+    <div class="container">
+        <h1>RM Mentorship & Training</h1>
+        <p>Building the next generation of confident, compliant Care Leaders.</p>
+    </div>
+</section>
+
+<div class="container">
+    <section class="content-box">
+        <h2>Supporting Aspiring Managers</h2>
+        <p>Transitioning into a Registered Manager role is one of the steepest learning curves in healthcare. My mentorship program is designed to bridge the gap between "doing the job" and "mastering the regulation."</p>
+        
+        <div class="grid">
+            <div class="mentor-card">
+                <h3>New Manager Fast-Track</h3>
+                <p>A 12-week intensive remote program covering the essentials of the Single Assessment Framework, safe staffing, and effective auditing.</p>
+            </div>
+            <div class="mentor-card">
+                <h3>CQC Interview Prep</h3>
+                <p>Mock "Fit Person" interviews conducted via video link. We build your confidence and ensure you can articulate your service's vision to inspectors.</p>
+            </div>
+            <div class="mentor-card">
+                <h3>Aspiring RM Mentoring</h3>
+                <p>For Deputy Managers or Seniors looking to step up. We focus on leadership mindset, governance, and managing 'Requires Improvement' turnarounds.</p>
+            </div>
+        </div>
+        
+        <div style="text-align: center; margin-top: 40px;">
+            <a href="index.html#contact" class="btn">Book a Discovery Call</a>
+        </div>
+    </section>
+
+    <section class="content-box">
+        <h2>Why Mentorship Matters</h2>
+        <p>Regulation is complex, but leadership shouldn't be lonely. Having a mentor who has <strong>owned care businesses and been a Registered Manager</strong> means you get practical, "real-world" advice that textbooks can't provide.</p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2026 The Remote RM | Expertise. Evidence. Excellence.</p>
+</footer>
+
+</body>
+</html>
