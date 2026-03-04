@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Sam Jones | The Remote RM</title>
+    <title>About Us | The Remote RM</title>
     <style>
         :root {
             --primary: #002d5b;
@@ -51,43 +51,47 @@
             box-shadow: 0 10px 30px rgba(0, 45, 91, 0.1);
         }
 
-        .about-grid {
-            display: grid;
-            grid-template-columns: 1fr 2fr;
-            gap: 4rem;
-            align-items: start;
-        }
-
-        .profile-img img {
-            width: 100%;
-            border-radius: 15px;
-            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-        }
-
-        h2 { color: var(--primary); border-left: 5px solid var(--accent); padding-left: 15px; }
+        h2 { color: var(--primary); border-left: 5px solid var(--accent); padding-left: 15px; margin-bottom: 1.5rem; }
         
-        .timeline-item {
-            margin-bottom: 2rem;
-            padding-left: 20px;
-            border-left: 2px solid #e1e8f0;
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            margin-top: 2rem;
         }
 
-        .badge {
-            background: #f0f7ff;
-            color: var(--accent);
-            padding: 5px 15px;
-            border-radius: 20px;
-            font-size: 0.85rem;
-            font-weight: 700;
-            display: inline-block;
-            margin-bottom: 10px;
+        .value-card {
+            background: #f8fbff;
+            padding: 2rem;
+            border-radius: 12px;
+            border: 1px solid #e1e8f0;
+        }
+
+        .value-card h3 { color: var(--accent); margin-top: 0; }
+
+        .founder-strip {
+            margin-top: 4rem;
+            padding-top: 3rem;
+            border-top: 1px solid #eee;
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        .founder-img img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid var(--accent);
         }
 
         footer { background: var(--primary); color: white; padding: 3rem 0; text-align: center; margin-top: 40px; }
 
         @media (max-width: 768px) {
-            .about-grid { grid-template-columns: 1fr; }
-            .content-box { padding: 2rem; margin-top: 0; }
+            .grid-2 { grid-template-columns: 1fr; }
+            .content-box { padding: 2rem; }
+            .founder-strip { flex-direction: column; text-align: center; }
         }
     </style>
 </head>
@@ -98,9 +102,9 @@
         <a href="index.html" class="logo"><img src="logo.png" alt="The Remote RM Logo"></a>
         <nav>
             <a href="index.html">Home</a>
-            <a href="about.html">About</a>
+            <a href="about.html">About Us</a>
             <a href="pricing.html">Pricing</a>
-            <a href="training.html">Mentorship</a>
+            <a href="mentorship.html">Mentorship</a>
             <a href="index.html#contact">Contact</a>
         </nav>
     </div>
@@ -108,42 +112,45 @@
 
 <section class="about-hero">
     <div class="container">
-        <p>CQC Compliance Manager | Former Registered Manager & Business Owner</p>
+        <h1>Our Story & Mission</h1>
+        <p>Expert-Led Compliance Built on Decades of Frontline Leadership</p>
     </div>
 </section>
 
 <div class="container">
     <section class="content-box">
-        <div class="about-grid">
-            <div class="profile-img">
-                <div style="margin-top: 20px;">
-                    <span class="badge">DSL Level 5 Qualified</span>
-                    <span class="badge">Bronze Officer Trained</span>
-                </div>
+        <h2>Bridging the Gap Between Regulation & Operations</h2>
+        <p><strong>The Remote RM</strong> was established to provide health and social care providers with a level of operational scrutiny that traditional consultancies often overlook. We don't just review compliance; we champion a culture of safety and transparency through robust quality assurance frameworks and proactive risk management[cite: 11, 12].</p>
+        
+        <p>Our approach is rooted in the belief that high-quality care should be supported by seamless service delivery, even in high-pressure environments[cite: 13]. We act as the bridge between regulatory requirements and operational excellence, ensuring services are always CQC-ready without the disruption of on-site visits.</p>
+
+        <div class="grid-2">
+            <div class="value-card">
+                <h3>Crisis-Grade Precision</h3>
+                <p>Our methodology is informed by years of NHS crisis command and urgent care coordination, ensuring rapid, evidence-based decision-making in every audit[cite: 13, 38, 41].</p>
             </div>
-            
-            <div class="about-text">
-                <h2>Real-World Experience. Exceptional Standards.</h2>
-                <p>I didn't enter the care sector through a boardroom. My journey began in the high-pressure environment of the NHS Emergency Department and the South Western Ambulance Service, where I served as a 999 call taker, dispatcher and Duty Manager. In those 24/7 crisis settings, I learned that operational excellence and evidence-based decision-making are paramount.</p>
-                
-                <p>In 2020, I applied that precision to building my own domiciliary care service from the ground up, As a Co-owner and CQC Registered Manager, I successfully achieved a **resounding 'GOOD' rating across all KLOEs** on our very first inspection.</p>
+            <div class="value-card">
+                <h3>Commercial Intelligence</h3>
+                <p>We understand the business of care. Our leaders bring hands-on experience in business development, P&L management, and sustainable growth[cite: 17, 30].</p>
+            </div>
+            <div class="value-card">
+                <h3>Safeguarding Excellence</h3>
+                <p>Led by Level 5 Designated Safeguarding experts, we prioritize the safety and dignity of vulnerable individuals above all else[cite: 7, 11, 54].</p>
+            </div>
+            <div class="value-card">
+                <h3>Future-Proof Standards</h3>
+                <p>We specialize in the CQC's Single Assessment Framework, helping Registered Managers navigate complex compliance landscapes[cite: 12, 21].</p>
+            </div>
+        </div>
 
-                <div class="timeline-item">
-                    <strong>CQC & Compliance Leadership</strong>
-                    <p>Acting as the primary point of contact for the CQC, I bridge the gap between regulatory requirements and operational excellence.</p>
-                </div>
-
-                <div class="timeline-item">
-                    <strong>Crisis Command Expertise</strong>
-                    <p>Former Operational Commander (Bronze Officer) leading teams of up to 48 in high-pressure emergency environments.</p>
-                </div>
-
-                <div class="timeline-item">
-                    <strong>Safeguarding Champion</strong>
-                    <p>As a Level 5 Designated Safeguarding Lead, I focus on protecting the safety, dignity, and voice of vulnerable individuals.</p>
-                </div>
-
-                <p style="font-style: italic; color: var(--primary); margin-top: 2rem;">"I understand the hot seat because I’ve sat in it. I founded The Remote RM to be the 'critical friend' I wish I had as a Registered Manager."</p>
+        <div class="founder-strip">
+            <div class="founder-img">
+                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=600&q=80" alt="Sam Jones">
+            </div>
+            <div class="founder-info">
+                <h3 style="margin: 0; color: var(--primary);">Led by Sam Jones</h3>
+                <p style="margin: 5px 0 0; font-size: 0.95rem; color: #666;">Founder & Principal Consultant | DSL Level 5 | CQC-Registered Leader</p>
+                <p style="font-size: 0.9rem; margin-top: 10px;">Sam founded The Remote RM after 20 years in the sector, including roles as an NHS Operational Commander and a CQC-Registered Care Business Owner[cite: 5, 40, 50]. His vision ensures that every client benefits from "crisis-grade" precision and real-world care experience[cite: 4, 13].</p>
             </div>
         </div>
     </section>
@@ -155,6 +162,3 @@
 
 </body>
 </html>
-
-
-
