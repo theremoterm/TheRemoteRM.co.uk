@@ -3,7 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us | The Remote RM</title>
+    <title>About Us | The Remote RM | CQC Compliance Experts</title>
+
+    <meta name="description" content="Learn about The Remote RM. Led by Sam Jones, we provide expert CQC compliance consultancy and remote audits built on 20 years of frontline care leadership.">
+    <meta name="keywords" content="CQC compliance, Sam Jones, remote care audits, SAF journey support, safeguarding governance">
+    <link rel="canonical" href="https://theremoterm.github.io/TheRemoteRM/about.html">
+
+    <meta property="og:title" content="About The Remote RM | Expert CQC Consultancy">
+    <meta property="og:description" content="Bridging the gap between regulation and operations with crisis-grade precision.">
+    <meta property="og:image" content="https://theremoterm.github.io/TheRemoteRM/logo.png">
+    <meta property="og:url" content="https://theremoterm.github.io/TheRemoteRM/about.html">
+
     <style>
         :root {
             --primary: #002d5b;
@@ -23,6 +33,7 @@
 
         .container { max-width: 1100px; margin: 0 auto; padding: 0 2rem; }
 
+        /* UNIFORM NAVIGATION STYLES */
         header {
             background: var(--white);
             padding: 1rem 0;
@@ -33,9 +44,30 @@
         }
 
         .nav-flex { display: flex; justify-content: space-between; align-items: center; }
-        .logo img { height: 80px; width: auto; }
-        nav a { text-decoration: none; color: var(--text); font-weight: 600; margin-left: 1.5rem; }
+        .logo img { height: 80px; width: auto; vertical-align: middle; }
+        
+        nav { display: flex; align-items: center; }
+        nav a { 
+            text-decoration: none; 
+            color: var(--text); 
+            font-weight: 600; 
+            margin-left: 1.5rem; 
+            transition: color 0.3s;
+        }
+        nav a:hover { color: var(--accent); }
 
+        .btn {
+            background: var(--accent);
+            color: white !important;
+            padding: 0.6rem 1.2rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 700;
+            transition: transform 0.2s;
+        }
+        .btn:hover { transform: scale(1.05); }
+
+        /* ABOUT PAGE SPECIFIC STYLES */
         .about-hero {
             padding: 80px 0;
             background: var(--primary);
@@ -92,6 +124,9 @@
             .grid-2 { grid-template-columns: 1fr; }
             .content-box { padding: 2rem; }
             .founder-strip { flex-direction: column; text-align: center; }
+            .nav-flex { flex-direction: column; gap: 1rem; }
+            nav { flex-wrap: wrap; justify-content: center; }
+            nav a { margin: 0.5rem; }
         }
     </style>
 </head>
@@ -99,13 +134,16 @@
 
 <header>
     <div class="container nav-flex">
-        <a href="index.html" class="logo"><img src="logo.png" alt="The Remote RM Logo"></a>
+        <a href="index.html" class="logo">
+            <img src="logo.png" alt="The Remote RM Logo">
+        </a>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="pricing.html">Pricing</a>
-            <a href="mentorship.html">Mentorship</a>
+            <a href="index.html#about">Approach</a>
+            <a href="index.html#services">Services</a>
+            <a href="training.html">Mentorship</a> 
             <a href="index.html#contact">Contact</a>
+            <a href="about.html">About</a>
+            <a href="pricing.html" class="btn" style="margin-left: 1.5rem;">View Packages</a>
         </nav>
     </div>
 </header>
@@ -145,7 +183,7 @@
 
         <div class="founder-strip">
             <div class="founder-img">
-                <img src= alt="Sam Jones">
+                <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=200&q=80" alt="Sam Jones">
             </div>
             <div class="founder-info">
                 <h3 style="margin: 0; color: var(--primary);">Led by Sam Jones</h3>
@@ -157,7 +195,9 @@
 </div>
 
 <footer>
-    <p>&copy; 2026 The Remote RM | Expertise. Evidence. Excellence.</p>
+    <div class="container">
+        <p>&copy; 2026 The Remote RM | Expertise. Evidence. Excellence.</p>
+    </div>
 </footer>
 
 </body>
