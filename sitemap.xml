@@ -11,6 +11,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://theremoterm.co.uk/services.html</loc>
+    <lastmod>2026-03-06</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://theremoterm.co.uk/pricing.html</loc>
     <lastmod>2026-03-06</lastmod>
     <priority>0.8</priority>
@@ -19,6 +24,16 @@
     <loc>https://theremoterm.co.uk/training.html</loc>
     <lastmod>2026-03-06</lastmod>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://theremoterm.co.uk/contact.html</loc>
+    <lastmod>2026-03-06</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://theremoterm.co.uk/terms.html</loc>
+    <lastmod>2026-03-06</lastmod>
+    <priority>0.5</priority>
   </url>
   <url>
     <loc>https://theremoterm.co.uk/privacy.html</loc>
